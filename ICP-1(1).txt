@@ -1,0 +1,17 @@
+Differences between Python2 and python3
+
+		Python-2				Python-3
+1. Uses ASCII					1. Uses UTF-8
+
+2. Python2 round downs to nearest		2. Gives the exact value
+   whole number
+
+3. Syntax: print "hello World"			3. Syntax: print("hello World")
+
+4. Raw_input() reads string			4. Raw_input() not available
+
+5. input() evaluates read			5. Input used to read strings
+
+6. Python2 accepts both range()			6. Python3 raises error if it is not enclosed  
+   and xrange()					   in exception argument
+
